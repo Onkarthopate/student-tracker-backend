@@ -12,6 +12,10 @@ app.use(express.json());
 
 app.use("/api/jobs", require("./routes/jobRoutes"));
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the Student Job Tracker Backend!');
+});
+
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
