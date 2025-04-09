@@ -7,7 +7,7 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: "https://student-tracker-app-one.vercel.app" }));
 app.use(express.json());
 
 app.use("/api/jobs", require("./routes/jobRoutes"));
