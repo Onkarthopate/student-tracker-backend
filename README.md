@@ -29,6 +29,7 @@ This is a fullstack **Student Job Tracker** web application built for the **Cuve
 ## 🌐 Live App
 
 **Frontend (Vercel):** https://student-tracker-app-beryl.vercel.app 
+
 **Backend (Render/Railway):** https://student-tracker-backend-7fni.onrender.com
 
 ---
