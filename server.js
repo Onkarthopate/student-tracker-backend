@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cors({
   origin: 'https://student-tracker-app-beryl.vercel.app', 
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   credentials: true,
 }));
 
